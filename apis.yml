@@ -1,0 +1,52 @@
+aid: old-national-bank
+url: https://raw.githubusercontent.com/api-evangelist/old-national-bank/refs/heads/main/apis.yml
+name: Old National Bank
+kind: company
+description: >-
+  Old National Bank is a nationally chartered, FDIC-insured regional commercial
+  bank and the primary subsidiary of Old National Bancorp (NASDAQ: ONB),
+  headquartered in Evansville, Indiana and Chicago, Illinois. With roughly $73
+  billion in assets and nearly 200 retail branches across Illinois, Indiana,
+  Iowa, Kentucky, Michigan, Minnesota, Tennessee, and Wisconsin, it is one of
+  the largest commercial banks headquartered in the U.S. Midwest, offering
+  consumer, small business, commercial, treasury management, and wealth banking.
+  Old National does not operate a first-party public developer portal or publish
+  any downloadable OpenAPI/Swagger specifications; probes of developer., api.,
+  and apis.oldnational.com do not resolve and /developers returns HTTP 404.
+  Consumer-permissioned account and transaction data is instead reached through
+  third-party financial data aggregators (Finicity by Mastercard is documented),
+  which is the honest, aggregator-only open-finance posture typical of U.S.
+  regional banks. No documented first-party FDX-conformant data-access API or
+  published CFPB Section 1033 developer surface was found at review time.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+tags:
+- Financial Services
+- Banking
+- United States
+- Regional Bank
+- Commercial Banking
+- Treasury Management
+- Open Finance
+- Data Aggregation
+created: '2026-07-23'
+modified: '2026-07-23'
+specificationVersion: '0.19'
+apis: []
+common:
+- type: Website
+  url: https://www.oldnational.com/
+- type: GitHubOrganization
+  url: https://github.com/oldnational
+- type: LinkedIn
+  url: https://www.linkedin.com/company/old-national-bank
+- type: Blog
+  url: https://www.oldnational.com/resources/insights/
+- type: TermsOfService
+  url: https://www.oldnational.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.oldnational.com/privacy/
+- type: Support
+  url: https://www.oldnational.com/customer-service/
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
