@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "old-national-bank",
+    "captured_at": "2026-10-11T191942",
+    "source_url": "https://www.oldnational.com/",
+    "source_type": "Website",
+    "file": "old-national-bank-2026-10-11T191942.png",
+    "bytes": 515007,
+    "capture": "playwright-local"
+  }
+]
