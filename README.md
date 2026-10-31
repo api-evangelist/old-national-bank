@@ -1,4 +1,4 @@
-# Old National Bank (old-national-bank)
+# Old National Bank
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,53 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Old National Bank is a nationally chartered, FDIC-insured regional commercial bank and the primary subsidiary of Old National Bancorp (NASDAQ: ONB), headquartered in Evansville, Indiana and Chicago, Illinois. With roughly $73 billion in assets and nearly 200 retail branches across eight Midwestern states, it is one of the largest commercial banks headquartered in the U.S. Midwest.
+Old National Bank is a nationally chartered, FDIC-insured regional commercial bank and the primary subsidiary of Old National Bancorp (NASDAQ: ONB), headquartered in Evansville, Indiana and Chicago, Illinois. With roughly $73 billion in assets and nearly 200 retail branches across Illinois, Indiana, Iowa, Kentucky, Michigan, Minnesota, Tennessee, and Wisconsin, it is one of the largest commercial banks headquartered in the U.S. Midwest, offering consumer, small business, commercial, treasury management, and wealth banking. Old National does not operate a first-party public developer portal or publish any downloadable OpenAPI/Swagger specifications; probes of developer., api., and apis.oldnational.com do not resolve and /developers returns HTTP 404. Consumer-permissioned account and transaction data is instead reached through third-party financial data aggregators (Finicity by Mastercard is documented), which is the honest, aggregator-only open-finance posture typical of U.S. regional banks. No documented first-party FDX-conformant data-access API or published CFPB Section 1033 developer surface was found at review time.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/old-national-bank/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/old-national-bank/refs/heads/main/apis.yml)
+**Areas:** Financial Services · Banking · United States · Regional Bank · Commercial Banking · Treasury Management · Open Finance
 
-## Open Finance / API Posture
+## Old National Bank on APIs.io
 
-Old National Bank does **not** operate a first-party public developer portal and does **not** publish any downloadable OpenAPI/Swagger specifications. At review time (2026-07-23):
+Everything profiled for Old National Bank is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/old-national-bank/](https://apis.io/providers/old-national-bank/)** — or go straight to one of the APIs or properties below.
 
-- `developer.oldnational.com`, `developers.oldnational.com`, `api.oldnational.com`, and `apis.oldnational.com` do not resolve.
-- `https://www.oldnational.com/developers` returns HTTP 404.
-- No documented first-party FDX-conformant data-access API and no published CFPB Section 1033 developer surface were found.
+### Published properties
 
-Consumer-permissioned account and transaction data is reached through **third-party financial data aggregators** — Finicity (by Mastercard) coverage is documented — rather than a first-party API. This aggregator-only posture is typical of U.S. regional banks, where open finance is voluntary and fragmented (no single mandated open-banking contract as in the UK or Australia).
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-This is an **identity-only** record with an honest "no public API, aggregator-only access" finding. No APIs are listed because none are publicly documented.
+#### Security (1)
 
-## Tags
+Authentication, trust centre, and vulnerability disclosure.
 
-- Financial Services
-- Banking
-- United States
-- Regional Bank
-- Commercial Banking
-- Treasury Management
-- Open Finance
-- Data Aggregation
+- [Old National Bank Domain Security](https://apis.io/security/old-national-bank/old-national-bank-domain-security/)
 
-## Timestamps
+## Where to find this API
 
-- **Created:** 2026-07-23
-- **Modified:** 2026-07-23
-
-## APIs
-
-None publicly documented. Old National Bank exposes no first-party developer API surface; consumer data access is via aggregators only.
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.oldnational.com/)
-- [GitHub Organization](https://github.com/oldnational)
-- [LinkedIn](https://www.linkedin.com/company/old-national-bank)
-- [Blog / Insights](https://www.oldnational.com/resources/insights/)
-- [Terms of Service](https://www.oldnational.com/terms-of-use/)
-- [Privacy Policy](https://www.oldnational.com/privacy/)
 - [Support](https://www.oldnational.com/customer-service/)
+- [Blog](https://www.oldnational.com/resources/insights/)
+- [Terms of service](https://www.oldnational.com/terms-of-use/)
+- [Privacy policy](https://www.oldnational.com/privacy/)
+- [GitHub](https://github.com/oldnational)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 9.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.0** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/old-national-bank/](https://apis.io/providers/old-national-bank/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Old National Bank: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/old-national-bank/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
